@@ -1,0 +1,12 @@
+{
+  "name": "@de-allure/api",
+  "version": "1.0.0",
+  "description": "De Allure API",
+  "license": "ISC",
+  "author": "Hendrix Ejegi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
