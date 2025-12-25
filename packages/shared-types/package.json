@@ -1,0 +1,10 @@
+{
+  "name": "@repo/shared-types",
+  "type": "module",
+  "description": "Shared type definitions for Frontend and Backend",
+  "main": "",
+  "types": "./index.d.ts",
+  "files": [
+    "index.d.ts"
+  ]
+}
