@@ -1,5 +1,5 @@
 {
-  "name": "@repo/api",
+  "name": "@de-allure/api",
   "version": "1.0.0",
   "description": "De Allure API",
   "license": "ISC",
@@ -20,7 +20,7 @@
     "pg": "^8.16.3"
   },
   "devDependencies": {
-    "@repo/shared-types": "workspace:*",
+    "@de-allure/shared-types": "workspace:*",
     "@types/express": "^5.0.6",
     "@types/node": "^25.0.3",
     "@types/pg": "^8.16.0",
