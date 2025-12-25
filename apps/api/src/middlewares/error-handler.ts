@@ -1,6 +1,6 @@
 import type { NextFunction, Request, Response } from 'express';
-import { CustomError, getErrorMessage } from '../lib/error.js';
-import { type ApiResponse } from '@repo/shared-types';
+import { CustomError, getErrorMessage } from '../lib/error';
+import type { ApiResponse } from '@repo/shared-types';
 
 function errorHandler(
   err: any,

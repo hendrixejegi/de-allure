@@ -1,8 +1,9 @@
 {
   "name": "@repo/shared-types",
+  "version": "1.0.0",
+  "private": true,
   "type": "module",
   "description": "Shared type definitions for Frontend and Backend",
-  "main": "",
   "types": "./index.d.ts",
   "files": [
     "index.d.ts"
