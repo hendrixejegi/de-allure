@@ -1,5 +1,5 @@
 import type { NextFunction, Request, Response } from 'express';
-import { CustomError, getErrorMessage } from '../lib/error';
+import { CustomError, getErrorMessage } from '../lib/error.js';
 import type { ApiResponse } from '@de-allure/shared-types';
 
 function errorHandler(

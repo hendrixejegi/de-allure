@@ -4,16 +4,15 @@
     // File Layout
     "rootDir": "./",
     "outDir": "./dist",
-    "forceConsistentCasingInFileNames": true,
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
-    "target": "esnext",
-    "baseUrl": "./src",
+    "moduleResolution": "nodenext",
+    "target": "es2022",
 
     // For nodejs:
-    "lib": ["esnext"],
+    // "lib": ["esnext"],
     "types": ["node"],
 
     // Other Outputs
@@ -24,7 +23,6 @@
     // Stricter Typechecking Options
     "noUncheckedIndexedAccess": true,
     "exactOptionalPropertyTypes": true,
-    "noImplicitAny": true,
 
     // Style Options
     // "noImplicitReturns": true,
@@ -37,12 +35,12 @@
     // Recommended Options
     "strict": true,
     "jsx": "react-jsx",
-    // "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": true,
     "isolatedModules": true,
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true
   },
-  "include": ["src/**/*", "generated"],
+  "include": ["src/**/*", "generated/**/*"],
   "exclude": ["dist", "node_modules"]
 }

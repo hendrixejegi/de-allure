@@ -4,13 +4,13 @@
   "description": "De Allure API",
   "license": "ISC",
   "author": "Hendrix Ejegi",
-  "type": "commonjs",
+  "type": "module",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --build",
     "start": "node ./dist/app.js",
-    "dev": "nodemon ./src/app.ts"
+    "dev": "nodemon"
   },
   "dependencies": {
     "@prisma/adapter-pg": "^7.2.0",
