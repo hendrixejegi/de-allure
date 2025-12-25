@@ -28,9 +28,9 @@ enum SizeMl {
 
 model Product {
   id            Int           @id @default(autoincrement())
-  name          String
+  name          String        @unique
   image         String
-  rating        Int
+  rating        Int           @default(0)
   sex           String
   concentration Concentration
   variants      Variant[]
