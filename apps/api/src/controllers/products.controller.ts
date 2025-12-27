@@ -10,7 +10,7 @@ import type { ApiResponse } from '@de-allure/shared-types';
 
 const PRODUCT_KEYS: (keyof Omit<Product, 'id'>)[] = [
   'name',
-  'image',
+  'imageId',
   'rating',
   'sex',
   'concentration',
