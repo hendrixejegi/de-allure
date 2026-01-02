@@ -1,5 +1,5 @@
 {
-  "name": "@de-allure/inventory",
+  "name": "inventory-web",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,15 +9,12 @@
     "lint": "eslint"
   },
   "dependencies": {
-    "@clerk/clerk-react": "^5.59.2",
     "better-auth": "^1.4.10",
     "next": "16.1.1",
     "react": "19.2.3",
     "react-dom": "19.2.3"
   },
   "devDependencies": {
-    "@de-allure/eslint-config": "workspace:^",
-    "@de-allure/typescript-config": "workspace:*",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
