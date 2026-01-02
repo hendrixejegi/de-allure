@@ -1,6 +1,6 @@
 import type { Request, Response } from 'express';
 import { prisma } from '../lib/prisma.js';
-import type { Product } from '../../generated/prisma/client.js';
+import type { Product } from '../generated/prisma/client.js';
 import {
   validateRequestBody,
   validateRequestParams,

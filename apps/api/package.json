@@ -17,6 +17,7 @@
     "@prisma/client": "^7.2.0",
     "axios": "^1.13.2",
     "better-auth": "^1.4.10",
+    "cors": "^2.8.5",
     "dotenv": "^17.2.3",
     "express": "^5.2.1",
     "multer": "^2.0.2",
@@ -24,6 +25,7 @@
   },
   "devDependencies": {
     "@de-allure/shared-types": "workspace:*",
+    "@types/cors": "^2.8.19",
     "@types/express": "^5.0.6",
     "@types/multer": "^2.0.0",
     "@types/node": "^25.0.3",
